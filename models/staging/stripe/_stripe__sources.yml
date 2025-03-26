@@ -10,4 +10,3 @@ sources:
         freshness: 
           error_after: {count: 7, period: day}
           warn_after: {count: 24, period: hour}
-     
