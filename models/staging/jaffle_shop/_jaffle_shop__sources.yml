@@ -17,7 +17,8 @@ sources:
               - not_null              
         freshness: null
       - name: orders
-        tests:
-          - unique
-          - not_null
-   
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
